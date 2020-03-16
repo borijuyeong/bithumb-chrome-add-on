@@ -1,0 +1,1 @@
+# bithumb-chrome-add-on
