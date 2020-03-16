@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bithumb Chrome Price Addon",
+  "description": "Chrome의 상단탭에서 가격과 종류를 보기쉽게",
+  "version": "1.0.0",
+  "background": {
+    "scripts": ["change_title.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.bithumb.com/*"],
+      "js": ["change_title.js"]
+    }
+  ]
+}
