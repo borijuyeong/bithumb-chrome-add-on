@@ -1,1 +1,1 @@
-# bithumb-chrome-add-on
+# Bithumb-Chrome-Addon
